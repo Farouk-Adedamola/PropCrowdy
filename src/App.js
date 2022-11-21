@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
+import Header from "./Components/Header/Header";
 function App() {
   return (
     <Fragment>
-      <div>we are live</div>
+      <Header />
     </Fragment>
   );
 }
