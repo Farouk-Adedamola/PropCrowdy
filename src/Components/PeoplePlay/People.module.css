@@ -1,0 +1,95 @@
+.main {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.card1 {
+  /* width: 21rem; */
+  background-color: blue;
+  border-radius: 16px;
+  width: 40vw;
+  padding: 20px 35px;
+}
+
+.card1 h1 {
+  /* margin-left: 34px; */
+}
+
+.wrap {
+  position: absolute;
+  top: -1.6rem;
+  left: 45vw;
+}
+
+.desc {
+  line-height: 8px;
+  margin-left: 17px;
+}
+
+.lists {
+  /* margin-left: 34px; */
+  display: flex;
+  align-items: center;
+}
+
+.desc p {
+  color: #111235;
+  font-size: 18px;
+}
+
+.desc p:last-child {
+  color: #6c6c6c;
+  text-transform: capitalize;
+}
+
+.button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: #ff6160;
+  font-size: 18px;
+  margin-top: 39px;
+  /* margin-left: 34px; */
+}
+
+.button span {
+  margin-right: 26.5px;
+}
+
+.card2 {
+  background: red;
+  /* width: 20rem; */
+  width: 50vw;
+  border-radius: 22px;
+  padding: 20px 0 30px 0;
+  position: absolute;
+  top: 9rem;
+  left: 14rem;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+.personimage {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+}
+
+.personinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondbutton {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: #ff0000;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 9px 15px 13px 16px;
+}

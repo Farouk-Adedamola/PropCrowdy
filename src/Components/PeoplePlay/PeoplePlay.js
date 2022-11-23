@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import classes from "./People.module.css";
+import safeguard from "../../Assets/safeguard.svg";
+import googleplay from "../../Assets/googleplay.svg";
 import { HiArrowRight } from "react-icons/hi";
 import { people } from "./data";
 import { person } from "./data";
@@ -7,40 +9,59 @@ import { person } from "./data";
 const PeoplePlay = () => {
   return (
     <Fragment>
-      <section>
-        <div>
-          {people.map((list) => {
-            const { id, img, name, tag } = list;
-            return (
-              <div key={id}>
-                {/* <>{img}</> */}
-                <img src={img} alt="img" />
-                <div>
-                  <p>{name}</p>
-                  <p>{tag}</p>
+      <main className={classes.main}>
+        <section>
+          <div className={classes.card1}>
+            <div className={classes.wrap}>
+              <img src={safeguard} alt="safeguardimage" />
+            </div>
+            <h1>20,000+ Investors</h1>
+            {people.map((list) => {
+              const { id, img, name, tag } = list;
+              return (
+                <div key={id} className={classes.lists}>
+                  <img src={img} alt="img" />
+                  <div className={classes.desc}>
+                    <p>{name}</p>
+                    <p>{tag}</p>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
-          <button type="button">
-            <p>See More</p>
-            <HiArrowRight />
-          </button>
-        </div>
-        <div>
-          {person.map((person) => {
-            const { id, img, name, tag } = person;
-            return (
-              <div key={id}>
-                <img src={img} alt="" />
-                <p>{name}</p>
-                <p>{tag}</p>
-              </div>
-            );
-          })}
-          <button type="button">Join Our Investors Network</button>
-        </div>
-      </section>
+              );
+            })}
+            <button type="button" className={classes.button}>
+              <span>See More</span>
+              <HiArrowRight />
+            </button>
+          </div>
+          <div className={classes.card2}>
+            {person.map((person) => {
+              const { id, img, name, tag } = person;
+              return (
+                <div key={id} className={classes.secondcard}>
+                  <div className={classes.personimage}>
+                    <img src={img} alt="" />
+                  </div>
+                  <div className={classes.personinfo}>
+                    <p>{name}</p>
+                    <p>{tag}</p>
+                  </div>
+                </div>
+              );
+            })}
+            <button type="button" className={classes.secondbutton}>
+              Join Our Investors Network
+            </button>
+          </div>
+        </section>
+        {/* <section>
+          <h1>Join Real Estate Investors investing realtime</h1>
+          <p>
+            PropCrowdy is a crowdfunding investment platform that empowers
+            Nigerians to make smart investments in real estate
+          </p>
+          <img src={googleplay} alt="googleplay" />
+        </section> */}
+      </main>
     </Fragment>
   );
 };
