@@ -1,27 +1,125 @@
 .mainArea {
   margin-top: 10.75rem;
+  /* width: 90vw; */
 }
 
 .section {
-  width: 28rem;
-  height: 24.25rem;
-  margin: 0 auto;
-  background: #f5f6f8;
-  border-radius: 20px;
-  position: relative;
+  margin-bottom: 0;
 }
 
 .section img {
-  height: 549px;
-  width: 330px;
-  position: absolute;
-  /* top: -3rem; */
-  bottom: 0;
-  left: 80px;
-  /* margin: 0 auto; */
+  width: 95vw;
+  object-fit: cover;
+  height: 30.25rem;
+  margin-bottom: 0;
 }
 
-.part img {
-  height: 40px;
-  width: 40px;
+.second_Section {
+  margin-top: 0;
+  position: relative;
+  top: -5rem;
+  left: 0.5rem;
+  margin-bottom: 0;
+}
+
+.second_Section h1 {
+  color: #050505;
+  font-size: 45px;
+}
+
+.second_Section p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  /* font-family: "apercu pro"; */
+}
+
+.buttons button {
+  border: none;
+  background: #ff0000;
+  padding: 15px 39px;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 47px;
+  box-shadow: 0px 67px 80px rgba(55, 52, 169, 0.07),
+    0px 43.4259px 46.8519px rgba(55, 52, 169, 0.0531481),
+    0px 25.8074px 25.4815px rgba(55, 52, 169, 0.0425185),
+    0px 13.4px 13px rgba(55, 52, 169, 0.035),
+    0px 5.45926px 6.51852px rgba(55, 52, 169, 0.0274815),
+    0px 1.24074px 3.14815px rgba(55, 52, 169, 0.0168519);
+}
+
+.icon {
+  padding: 18px 17px;
+  background: #22d497;
+  border-radius: 47px;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: 0px 100px 80px rgba(34, 212, 151, 0.07),
+    0px 64.8148px 46.8519px rgba(34, 212, 151, 0.0531481),
+    0px 38.5185px 25.4815px rgba(34, 212, 151, 0.0425185),
+    0px 20px 13px rgba(34, 212, 151, 0.035),
+    0px 8.14815px 6.51852px rgba(34, 212, 151, 0.0274815),
+    0px 1.85185px 3.14815px rgba(34, 212, 151, 0.0168519);
+}
+
+.buttons {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+}
+
+.buttons div {
+  display: flex;
+  align-items: center;
+}
+
+.buttons div p {
+  color: #ff0000;
+  margin-left: 11px;
+  font-size: 17px;
+}
+
+.whatsapp {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.whatsapp img {
+  width: 65px;
+  height: 65px;
+}
+
+@media screen and (min-width: 760px) {
+  .mainArea {
+    display: flex;
+  }
+
+  .section img {
+    width: 50vw;
+    height: 40.25rem;
+    /* margin-bottom: 0; */
+  }
+
+  .second_Section {
+    width: 45vw;
+  }
+
+  .buttons {
+    display: flex;
+    width: 40vw;
+    /* width: 90vw; */
+    /* justify-content: space-between; */
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .mainArea {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* justify-content: ; */
+  }
 }
