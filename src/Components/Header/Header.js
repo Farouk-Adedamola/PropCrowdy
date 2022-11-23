@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import classes from "./Header.module.css";
+import WhatsappLogo from "../WhatsappLogo";
 
 //  images import
-import group11 from "../../Assets/group22.png";
-import whatsapp from "../../Assets/WhatsAppicon.svg";
+import group11 from "../../Assets/Group11.png";
 // import manradius from "../../Assets/man2.png";
 
 // React icons
@@ -21,7 +21,7 @@ const Header = () => {
           <h1>Real Estate Investment Oppotunities For Property Development</h1>
           <p>
             PropCrowdy is a crowdfunding investment platform that empowers
-            Nigerians to make smart <br /> investments in real estate
+            Nigerians to make smart investments in real estate
           </p>
           <div className={classes.buttons}>
             <button>Get Started</button>
@@ -30,11 +30,9 @@ const Header = () => {
               <p>See how it works</p>
             </div>
           </div>
-          <div className={classes.whatsapp}>
-            <img src={whatsapp} alt="whatsapp-icon" />
-          </div>
         </section>
       </main>
+      <WhatsappLogo />
     </Fragment>
   );
 };

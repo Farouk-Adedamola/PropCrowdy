@@ -1,20 +1,28 @@
 .mainArea {
   margin-top: 10.75rem;
-  /* width: 90vw; */
+  /* width: 100vw; */
 }
 
 .section {
   margin-bottom: 0;
+  border: 1px solid red;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .section img {
-  width: 95vw;
+  width: 30rem;
+  margin: 0 auto;
+  display: flex;
   object-fit: cover;
-  height: 30.25rem;
+  /* height: 30.25rem; */
   margin-bottom: 0;
 }
 
 .second_Section {
+  border: 1px solid red;
+
   margin-top: 0;
   position: relative;
   top: -5rem;
@@ -24,23 +32,23 @@
 
 .second_Section h1 {
   color: #050505;
-  font-size: 45px;
+  font-size: 27px;
+  font-weight: 900;
 }
 
 .second_Section p {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 20px;
   letter-spacing: -0.02em;
   color: #000000;
-  /* font-family: "apercu pro"; */
 }
 
 .buttons button {
   border: none;
   background: #ff0000;
-  padding: 15px 39px;
+  padding: 8px 31.2px 8px 20px;
   color: #fff;
-  font-size: 1rem;
+  font-size: 14px;
   border-radius: 47px;
   box-shadow: 0px 67px 80px rgba(55, 52, 169, 0.07),
     0px 43.4259px 46.8519px rgba(55, 52, 169, 0.0531481),
@@ -51,11 +59,11 @@
 }
 
 .icon {
-  padding: 18px 17px;
+  padding: 16px 15px;
   background: #22d497;
   border-radius: 47px;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 14px;
   box-shadow: 0px 100px 80px rgba(34, 212, 151, 0.07),
     0px 64.8148px 46.8519px rgba(34, 212, 151, 0.0531481),
     0px 38.5185px 25.4815px rgba(34, 212, 151, 0.0425185),
@@ -66,8 +74,9 @@
 
 .buttons {
   display: flex;
-  width: 90vw;
   justify-content: space-between;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .buttons div {
@@ -81,37 +90,46 @@
   font-size: 17px;
 }
 
-.whatsapp {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 40px;
-}
-
-.whatsapp img {
-  width: 65px;
-  height: 65px;
-}
-
 @media screen and (min-width: 760px) {
   .mainArea {
     display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    /* grid-template-columns: 1fr 1fr; */
+    /* place-items: center; */
+    /* gap: 0; */
   }
 
   .section img {
-    width: 50vw;
+    width: 45vw;
     height: 40.25rem;
-    /* margin-bottom: 0; */
   }
 
   .second_Section {
-    width: 45vw;
+    width: 40vw;
   }
 
   .buttons {
     display: flex;
     width: 40vw;
-    /* width: 90vw; */
-    /* justify-content: space-between; */
+  }
+  .second_Section h1 {
+    font-size: 45px;
+  }
+  .second_Section p {
+    /* margin-left: 191px; */
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  .buttons button {
+    padding: 15px 39px;
+    font-size: 1rem;
+  }
+
+  .icons {
+    font-size: 1.2rem;
   }
 }
 
@@ -120,6 +138,21 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    /* justify-content: ; */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .buttons button {
+    padding: 1rem 1.5rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttons div {
+    align-self: center;
+    padding-top: 1rem;
   }
 }
