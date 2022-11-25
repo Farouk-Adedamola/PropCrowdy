@@ -9,18 +9,24 @@ export const people = [
     img: passport1,
     name: "Emaka Ndusi",
     tag: "investor",
+    price: "+ ₦180,900",
+    css: { backgroundColor: "#fff" },
   },
   {
     id: 2,
     img: passport2,
     name: "Titilayo Otunba",
     tag: "investor",
+    price: "+ ₦840,900",
+    css: { backgroundColor: "#fff" },
   },
   {
     id: 3,
     img: passport3,
     name: "Hassain Omarn",
     tag: "investor",
+    price: "+ ₦680,900",
+    css: { backgroundColor: "#fff" },
   },
 ];
 

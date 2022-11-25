@@ -1,0 +1,47 @@
+.container {
+  margin-top: 108px;
+  margin-left: 27px;
+}
+
+.container h1 {
+  font-family: "Tiemposbold";
+}
+
+.container p {
+  font-family: "Apercuregular";
+  line-height: 17px;
+  font-size: 14px;
+  padding: 11px 27px 0 0;
+}
+
+.container p:last-child {
+  display: none;
+}
+
+@media screen and (min-width: 920px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 165px;
+    /* margin-right: 217px; */
+    border: 1px solid red;
+    width: 90vw;
+  }
+
+  .container h1 {
+    /* padding: 165px 217px 0 0; */
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .container p:last-child {
+    display: block;
+    font-size: 1rem;
+    line-height: 25px;
+    /* width: 1177px; */
+  }
+
+  .container p {
+    display: none;
+  }
+}
