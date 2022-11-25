@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import classes from "./InvestorCards.module.css";
 import { card } from "./investdata";
 import { people } from "../PeoplePlay/data";
+import Card1 from "../Reusable/Card1";
 
 const InvestorCards = () => {
   return (
@@ -23,7 +24,7 @@ const InvestorCards = () => {
           <div className={classes.design}></div>
           <div className={classes.second}></div>
         </div>
-        <div className={classes.wrapper}>
+        {/* <div className={classes.wrapper}>
           {card.map((each) => {
             const { id, img, Text, name } = each;
             return (
@@ -34,7 +35,8 @@ const InvestorCards = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
+        <Card1 />
       </section>
     </Fragment>
   );
