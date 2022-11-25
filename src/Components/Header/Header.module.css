@@ -5,7 +5,7 @@
 
 .section {
   margin-bottom: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 .second_Section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
   margin-top: 0;
   position: relative;
@@ -154,5 +154,16 @@
   .buttons div {
     align-self: center;
     padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section img {
+    width: 25rem;
+    display: flex;
+    margin-left: 2.5rem;
+  }
+  .second_Section {
+    margin-left: 27px;
   }
 }

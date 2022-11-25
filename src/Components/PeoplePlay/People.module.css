@@ -5,7 +5,7 @@
 
 .card1 {
   /* width: 21rem; */
-  background-color: blue;
+  background-color: #fff;
   border-radius: 16px;
   width: 40vw;
   padding: 20px 35px;
@@ -21,15 +21,49 @@
   left: 45vw;
 }
 
+.wrap img {
+  background: #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
 .desc {
   line-height: 8px;
   margin-left: 17px;
 }
 
 .lists {
-  /* margin-left: 34px; */
   display: flex;
   align-items: center;
+}
+
+/* mobile design */
+
+@media screen and (max-width: 450px) {
+  .lists img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  }
+  .desc p:first-child {
+    font-size: 12px;
+  }
+  .desc p:last-child {
+    font-size: 12px;
+  }
+  .card1 h1 {
+    font-size: 0.9rem;
+  }
+  .wrap {
+    position: absolute;
+    top: -1.6rem;
+    left: 50vw;
+  }
+  .wrap img {
+    width: 55px;
+    height: 55px;
+  }
 }
 
 .desc p {
@@ -49,8 +83,7 @@
   align-items: center;
   color: #ff6160;
   font-size: 18px;
-  margin-top: 39px;
-  /* margin-left: 34px; */
+  margin-top: 30px;
 }
 
 .button span {
@@ -58,7 +91,7 @@
 }
 
 .card2 {
-  background: red;
+  background: #fff;
   /* width: 20rem; */
   width: 50vw;
   border-radius: 22px;
@@ -66,21 +99,55 @@
   position: absolute;
   top: 9rem;
   left: 14rem;
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column; */
+}
+
+@media screen and (max-width: 450px) {
+  .card2 {
+    border-radius: 13px;
+    position: absolute;
+    top: 6rem;
+    left: 12.5rem;
+  }
+
+  .personimage img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .personinfo {
+    line-height: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+  }
+
+  .personinfo p:first-child {
+    font-size: 12px;
+  }
+  .personinfo p:last-child {
+    font-size: 10px;
+    text-transform: capitalize;
+  }
+  .secondbutton {
+    font-size: 12px;
+    /* margin-top: 14px; */
+  }
 }
 
 .personimage {
-  /* margin: 0 auto; */
   display: flex;
   justify-content: center;
 }
 
-.personinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media screen and (min-width: 450px) {
+  .personinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 8px;
+    padding-top: 22px;
+  }
 }
 
 .secondbutton {
@@ -89,7 +156,14 @@
   justify-content: center;
   background: #ff0000;
   color: #fff;
-  font-size: 16px;
   border: none;
+  margin-top: 14px;
   padding: 9px 15px 13px 16px;
+}
+
+@media screen and (min-width: 450px) {
+  .secondbutton {
+    margin-top: 20px;
+    font-size: 16px;
+  }
 }
