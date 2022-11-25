@@ -66,6 +66,8 @@
   }
 }
 
+/* mobile design ends */
+
 .desc p {
   color: #111235;
   font-size: 18px;
@@ -101,6 +103,7 @@
   left: 14rem;
 }
 
+/* mobile display */
 @media screen and (max-width: 450px) {
   .card2 {
     border-radius: 13px;
@@ -131,9 +134,10 @@
   }
   .secondbutton {
     font-size: 12px;
-    /* margin-top: 14px; */
   }
 }
+
+/* mobile design ends */
 
 .personimage {
   display: flex;
@@ -157,7 +161,7 @@
   background: #ff0000;
   color: #fff;
   border: none;
-  margin-top: 14px;
+  /* margin-top: 14px; */
   padding: 9px 15px 13px 16px;
 }
 
@@ -166,4 +170,101 @@
     margin-top: 20px;
     font-size: 16px;
   }
+}
+
+@media screen and (min-width: 920px) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .main section {
+    width: 50vw;
+    margin-left: 27px;
+  }
+  .card1 {
+    width: 21rem;
+    background: red;
+    height: 388px;
+    margin-left: 57px;
+  }
+
+  .card2 {
+    width: 22rem;
+    background: green;
+    position: absolute;
+    height: 318px;
+    left: 338px;
+    top: 104px;
+    bottom: 32px;
+  }
+
+  .wrap {
+    left: 24rem;
+  }
+  .section {
+    padding-left: 140px;
+  }
+
+  .section img {
+    margin-top: 20px;
+    height: 56px;
+  }
+
+  .section h1 {
+    width: 511px;
+    margin-top: -3rem;
+  }
+
+  .section p {
+    width: 446px;
+  }
+
+  .button {
+    position: absolute;
+    bottom: 32px;
+  }
+
+  .secondbutton {
+    left: 51px;
+    right: 51px;
+    position: absolute;
+    bottom: 34px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section {
+    position: relative;
+    top: 4rem;
+    margin-left: 27px;
+  }
+  .section h1 {
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 35px;
+  }
+  .section p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .section img {
+    margin-top: 27px;
+    width: 296px;
+    height: 46px;
+  }
+}
+
+.section h1 {
+  font-family: "Tiemposbold";
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 39px;
+}
+
+.section p {
+  font-size: 1rem;
+  line-height: 20px;
+  font-family: "apercuregular";
 }

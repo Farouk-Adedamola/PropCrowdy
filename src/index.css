@@ -1,0 +1,40 @@
+/* @font-face {
+  font-family: "apercuBoldPro";
+  src: local("apercuBoldPro"),
+    url("./fonts/Apercu-pro/apercu_bold_pro.otf") format("truetype");
+  font-weight: 900;
+} */
+@font-face {
+  font-family: "Tiemposregular";
+  src: local("Tiemposregular"),
+    url("./Fonts/Tiempos-Headline/TiemposHeadline-Regular.otf")
+      format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Tiemposbold";
+  src: local("Tiemposbold"),
+    url("./Fonts/Tiempos-Headline/TiemposHeadline-Bold.otf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Apercuregular";
+  src: local("Apercuregular"),
+    url("./Fonts/Apercu-pro/apercu_regular_pro.otf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Apercubold";
+  src: local("Apercubold"),
+    url("./Fonts/Apercu-pro/apercu_bold_pro.otf") format("truetype");
+  font-weight: 900;
+}
+/* @font-face {
+  font-family: "apercuRegular";
+  src: local("apercuRegular"),
+    url("./fonts/Apercu-pro/apercu_regular_pro.otf") format("truetype");
+  font-weight: 600;
+} */

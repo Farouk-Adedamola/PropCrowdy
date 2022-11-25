@@ -1,0 +1,42 @@
+@media screen and (max-width: 650px) {
+  .section {
+    position: relative;
+    top: 4rem;
+    margin-left: 27px;
+  }
+  .section h1 {
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 35px;
+  }
+  .section p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .section img {
+    margin-top: 27px;
+    width: 296px;
+    height: 46px;
+  }
+}
+
+.section h1 {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 39px;
+}
+
+.section p {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 760px) {
+  /* .container {
+    width: 30vw;
+  }
+  .section {
+    width: 20rem;
+    margin-right: -4rem;
+  } */
+}

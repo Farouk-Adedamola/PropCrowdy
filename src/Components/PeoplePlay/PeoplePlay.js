@@ -1,10 +1,12 @@
 import React, { Fragment } from "react";
 import classes from "./People.module.css";
 import safeguard from "../../Assets/safeguard.svg";
-import googleplay from "../../Assets/googleplay.svg";
+import play from "../../Assets/googleplay.svg";
 import { HiArrowRight } from "react-icons/hi";
 import { people } from "./data";
 import { person } from "./data";
+
+// import Play from "../Playreuse/Play";
 
 const PeoplePlay = () => {
   return (
@@ -53,14 +55,14 @@ const PeoplePlay = () => {
             </button>
           </div>
         </section>
-        {/* <section>
+        <section className={classes.section}>
           <h1>Join Real Estate Investors investing realtime</h1>
           <p>
             PropCrowdy is a crowdfunding investment platform that empowers
             Nigerians to make smart investments in real estate
           </p>
-          <img src={googleplay} alt="googleplay" />
-        </section> */}
+          <img src={play} alt="googleplay" />
+        </section>
       </main>
     </Fragment>
   );
