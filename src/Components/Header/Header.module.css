@@ -20,14 +20,14 @@
   margin-left: 27px;
 }
 
-.second_Section h1 {
+.text {
   width: 344px;
   font-family: "Tiemposbold";
   margin: 2rem 0;
   font-size: 27px;
 }
 
-.second_Section p:first-child {
+.para {
   font-family: "Apercuregular";
   font-size: 14px;
   margin-top: 14px;
