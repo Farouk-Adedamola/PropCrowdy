@@ -14,7 +14,7 @@ function App() {
   return (
     <Fragment>
       <Header />
-      {/* <PeoplePlay /> */}
+      <PeoplePlay />
       <AsInvestor />
       <InvestorCards />
       <FormSection />
