@@ -197,11 +197,12 @@
 
   .section p {
     font-size: 1rem;
+    width: 300px;
   }
 
   .section img {
     margin-top: 37px;
-    width: 358px;
+    width: 300px;
     border: 1px solid red;
   }
 }

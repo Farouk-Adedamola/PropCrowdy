@@ -138,18 +138,52 @@
 
 @media screen and (min-width: 760px) {
   .firstwrapper {
-    margin: 132px 0 0 151px;
-    height: 407px;
+    margin: 132px 40px 0 150px;
+    width: 431px;
+  }
+
+  .persons {
+    width: 170px;
+  }
+
+  .design {
+    position: absolute;
+    top: 200px;
+    left: 180px;
   }
 
   .section {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    /* position: relative; */
+    /* left: 107px; */
   }
 
   .persons {
-    padding: 8px 0 8px 12px;
+    /* padding: 8px 0 8px 12px; */
     /* margin: 20px 31px; */
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .section {
+  }
+
+  .firstwrapper {
+    margin-left: 50px;
+    margin-right: 60px;
+    width: 400px;
+  }
+
+  .persons {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .firstwrapper {
+    margin-right: -70px;
+    margin-left: 0;
   }
 }

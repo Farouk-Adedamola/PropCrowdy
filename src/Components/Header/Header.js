@@ -18,7 +18,9 @@ const Header = () => {
           <img src={group11} alt="" />
         </section>
         <section className={classes.second_Section}>
-          <h1>Real Estate Investment Oppotunities For Property Development</h1>
+          <h1 className={classes.text}>
+            Real Estate Investment Oppotunities For Property Development
+          </h1>
           <p className={classes.para}>
             PropCrowdy is a crowdfunding investment platform that empowers
             Nigerians to make smart investments in real estate

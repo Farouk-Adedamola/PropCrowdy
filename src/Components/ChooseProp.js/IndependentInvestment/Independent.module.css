@@ -1,7 +1,9 @@
 .deal {
   margin: 0 23px;
 }
-.secondCard {
+.secondCard h1 {
+  margin-left: 25px;
+  text-align: left;
   /* margin-top: ; */
 }
 .secondCard p {
@@ -27,8 +29,11 @@ button {
 }
 
 @media screen and (min-width: 760px) {
+  .secondCard h1 {
+    margin-left: 32px;
+  }
   .deal p {
-    width: 470px;
+    width: 370px;
     line-height: 20px;
     margin-bottom: 42px;
     display: flex;

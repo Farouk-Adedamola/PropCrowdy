@@ -110,13 +110,13 @@ button {
 @media screen and (min-width: 760px) {
   .section {
     width: 404px;
-    margin-left: 100px;
-    margin-right: 140px;
+    margin-left: 40px;
+    margin-right: 90px;
     /* height: 473px; */
   }
 
   input {
-    width: 334px;
+    width: 314px;
   }
   .contain,
   .contain2,
@@ -138,10 +138,17 @@ button {
     /* text-align: center; */
   }
 
-  .overall,
+  .overall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .overalll {
     display: flex;
+    width: 80vw;
     justify-content: space-around;
+    margin: 0 auto;
     align-items: center;
   }
 
@@ -152,13 +159,22 @@ button {
   .button {
   }
 
+  .secondCard {
+    margin-left: -50px;
+    width: 300px;
+  }
+
   .secondCard h1 {
     font-size: 30px;
   }
 
+  .secondCard p {
+    width: 350px;
+  }
+
   .investment {
-    margin-left: 100px;
-    margin-right: 80px;
+    margin-left: 200px;
+    margin-right: 0px;
   }
 
   .Independent img {
@@ -184,4 +200,29 @@ button {
 
 .investment {
   margin-top: 3rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .overall {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .section {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .overalll {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .investment {
+    margin-left: 70px;
+    margin-right: 80px;
+  }
 }

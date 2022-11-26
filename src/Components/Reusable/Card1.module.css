@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 760px) {
   .card {
-    width: 250px;
+    width: 221px;
   }
   .card img {
     width: 70px;
@@ -55,5 +55,12 @@
 
   .card p {
     font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    margin-left: 0;
+    margin-right: 50px;
   }
 }

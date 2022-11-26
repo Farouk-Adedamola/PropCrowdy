@@ -146,8 +146,9 @@
   }
 
   .section {
-    width: 404px;
-    margin-left: 105px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 50px;
     /* margin-right: 50px; */
   }
 
@@ -156,7 +157,7 @@
   }
 
   .input {
-    width: 310px;
+    width: 210px;
   }
   .contain p {
     font-family: "Apercuregular";
@@ -181,12 +182,14 @@
     position: absolute;
     top: 315px;
     left: -90px;
+    width: 200px;
   }
 
   .avater2 {
     position: absolute;
     top: 445px;
-    left: 110px;
+    left: 90px;
+    width: 200px;
   }
   .avater1 img,
   .avater2 img {
@@ -224,11 +227,23 @@
   margin-top: 6rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .section {
+    margin-left: 110px;
+    margin-right: 90px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .section {
+    margin-left: 160px;
+    margin-right: 130px;
+  }
+
+  /* .section {
     margin-left: 180px;
   }
   .last {
     margin-right: 100px;
-  }
+  } */
 }
