@@ -2,7 +2,7 @@
   background: #f5f6f8;
   width: 400px;
   max-width: 531px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   border-radius: 20px;
   padding: 25px 0;
   position: relative;
@@ -12,8 +12,9 @@
 
 @media screen and (max-width: 450px) {
   .firstwrapper {
-    width: 95vw;
-    left: 21px;
+    width: 90vw;
+    margin: 0 auto;
+    /* left: 17px; */
     /* margin: 0 auto; */
 
     /* flex-direction: column; */

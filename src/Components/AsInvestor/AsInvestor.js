@@ -11,12 +11,6 @@ const AsInvestor = () => {
         appropriate authorities, investors need not worry as their investment
         are safe and secure.
       </p>
-      <p>
-        Get access to investment opportunities while getting expert advice on
-        your investment choices. Our investment <br /> oppotunities are
-        regulated by appropriate authorities, investors need not worry as their
-        investment are safe and secure.
-      </p>
     </div>
   );
 };
