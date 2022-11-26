@@ -19,13 +19,13 @@ const Header = () => {
         </section>
         <section className={classes.second_Section}>
           <h1>Real Estate Investment Oppotunities For Property Development</h1>
-          <p>
+          <p className={classes.para}>
             PropCrowdy is a crowdfunding investment platform that empowers
             Nigerians to make smart investments in real estate
           </p>
           <div className={classes.buttons}>
             <button>Get Started</button>
-            <div>
+            <div className={classes.wrapper}>
               <FaPlay className={classes.icon} />
               <p>See how it works</p>
             </div>

@@ -12,12 +12,12 @@ const PeoplePlay = () => {
   return (
     <Fragment>
       <main className={classes.main}>
-        <section>
+        <section className={classes.mainwrap}>
           <div className={classes.card1}>
             <div className={classes.wrap}>
               <img src={safeguard} alt="safeguardimage" />
             </div>
-            <h1>20,000+ Investors</h1>
+            <h1 className={classes.h1}>20,000+ Investors</h1>
             {people.map((list) => {
               const { id, img, name, tag } = list;
               return (

@@ -1,0 +1,64 @@
+.blog {
+  margin-top: 87px;
+}
+
+.blog h1 {
+  font-family: "Tiemposbold";
+  font-size: 27px;
+  color: #050505;
+  text-align: center;
+}
+
+.blog p {
+  text-align: center;
+  font-family: "Apercuregular";
+}
+.fundedLogos {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fundedLogos img {
+  width: 103px;
+  height: 179px;
+}
+
+.fundedLogos img:nth-child(3) {
+  display: none;
+}
+
+.fundedLogos img:nth-child(4) {
+  display: none;
+}
+
+@media screen and (min-width: 760px) {
+  .blog h1 {
+    font-size: 30px;
+  }
+
+  .blog p {
+    font-size: 1rem;
+  }
+
+  .blog img {
+    width: 60vw;
+  }
+
+  .fundedLogos {
+    display: flex;
+    margin: 0 auto;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 71px;
+  }
+
+  .fundedLogos img:nth-child(3) {
+    display: block;
+  }
+
+  .fundedLogos img:nth-child(4) {
+    display: block;
+  }
+}

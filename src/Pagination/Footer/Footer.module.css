@@ -1,0 +1,37 @@
+.footer {
+  background: #000;
+  margin-top: 104px;
+  margin-left: -10px;
+
+  /* width: 100vw; */
+  /* margin: 0; */
+}
+
+.footer img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 97vw;
+  object-fit: cover;
+}
+
+.footer img:last-child {
+  display: none;
+}
+
+@media screen and (min-width: 760px) {
+  .footer {
+    /* width: 70; */
+  }
+  .footer img:last-child {
+    display: flex;
+    /* margin: 104px auto 0 auto; */
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .footer img:first-child {
+    display: none;
+  }
+}

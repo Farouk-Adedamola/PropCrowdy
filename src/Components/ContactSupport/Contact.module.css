@@ -1,0 +1,115 @@
+.section {
+  background: #ff0000;
+  border-radius: 10px;
+  margin-top: 46.5px;
+  height: 285px;
+  position: relative;
+  width: 90vw;
+  margin: 46.5px auto 0 auto;
+}
+
+.wrapper {
+  padding: 34px 15px 15px 25px;
+}
+
+.wrapper h1 {
+  font-family: "Apercubold";
+  color: #fff;
+  line-height: 31px;
+}
+
+.wrapper p {
+  font-size: 17px;
+  color: #fff;
+  font-family: "Apercubold";
+}
+
+.btn {
+  margin-left: 35px;
+}
+
+.btn button {
+  background: #fff;
+  border-radius: 4px;
+  color: #4f4f4f;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.box1 {
+  width: 122px;
+  height: 116px;
+  position: absolute;
+  top: 185px;
+  left: 65vw;
+  border-radius: 9px;
+  background: #ffffff33;
+}
+
+.box2 {
+  width: 78px;
+  height: 116px;
+  position: absolute;
+  top: 215px;
+  left: 75vw;
+  border-radius: 9px;
+  background: #ffffff33;
+}
+
+@media screen and (min-width: 760px) {
+  .section {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 76px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .wrapper {
+    padding: 50px 0 0 0px;
+    width: 40vw;
+    line-height: 50px;
+  }
+
+  .wrapper h1 {
+    font-size: 40px;
+  }
+
+  .box1 {
+    position: absolute;
+    top: 178px;
+    left: 45vw;
+  }
+
+  .box2 {
+    position: absolute;
+    top: 205px;
+    left: 50vw;
+  }
+
+  .box3 {
+    width: 168px;
+    height: 160px;
+    position: absolute;
+    top: -65px;
+    left: 70vw;
+    border-radius: 9px;
+    background: #ffffff33;
+  }
+
+  .box4 {
+    width: 142px;
+    height: 160px;
+    position: absolute;
+    top: -30px;
+    left: 75vw;
+    border-radius: 9px;
+    background: #ffffff33;
+  }
+
+  .btn {
+    /* margin-left: 100; */
+  }
+}

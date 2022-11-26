@@ -1,172 +1,141 @@
 .mainArea {
-  margin-top: 10.75rem;
-  /* width: 100vw; */
+  margin-top: 93px;
 }
 
 .section {
   margin-bottom: 0;
-  /* border: 1px solid red; */
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
 }
 
 .section img {
-  width: 30rem;
-  margin: 0 auto;
+  width: 90vw;
   display: flex;
-  object-fit: cover;
-  /* height: 30.25rem; */
-  margin-bottom: 0;
+  justify-content: center;
+  max-width: 530px;
+  margin: 0 auto;
+  height: 485px;
 }
 
 .second_Section {
-  /* border: 1px solid red; */
-
-  margin-top: 0;
-  position: relative;
-  top: -5rem;
-  left: 0.5rem;
-  margin-bottom: 0;
+  margin-top: -6rem;
+  margin-left: 40px;
 }
 
 .second_Section h1 {
-  color: #050505;
-  font-size: 37px;
-  font-weight: 900;
+  width: 344px;
   font-family: "Tiemposbold";
+  margin: 2rem 0;
+  font-size: 27px;
 }
 
-.second_Section p {
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  color: #000000;
+.second_Section p:first-child {
   font-family: "Apercuregular";
-  font-weight: 400;
-}
-
-.buttons button {
-  border: none;
-  background: #ff0000;
-  padding: 8px 31.2px 8px 20px;
-  color: #fff;
   font-size: 14px;
-  border-radius: 47px;
-  box-shadow: 0px 67px 80px rgba(55, 52, 169, 0.07),
-    0px 43.4259px 46.8519px rgba(55, 52, 169, 0.0531481),
-    0px 25.8074px 25.4815px rgba(55, 52, 169, 0.0425185),
-    0px 13.4px 13px rgba(55, 52, 169, 0.035),
-    0px 5.45926px 6.51852px rgba(55, 52, 169, 0.0274815),
-    0px 1.24074px 3.14815px rgba(55, 52, 169, 0.0168519);
+  margin-top: 14px;
+  width: 314px;
 }
 
 .icon {
-  padding: 16px 15px;
   background: #22d497;
-  border-radius: 47px;
-  color: #fff;
-  font-size: 14px;
+  padding: 13px;
   box-shadow: 0px 100px 80px rgba(34, 212, 151, 0.07),
     0px 64.8148px 46.8519px rgba(34, 212, 151, 0.0531481),
     0px 38.5185px 25.4815px rgba(34, 212, 151, 0.0425185),
     0px 20px 13px rgba(34, 212, 151, 0.035),
     0px 8.14815px 6.51852px rgba(34, 212, 151, 0.0274815),
     0px 1.85185px 3.14815px rgba(34, 212, 151, 0.0168519);
+  border-radius: 47px;
 }
 
 .buttons {
+  width: 80vw;
   display: flex;
   justify-content: space-between;
-  width: 90vw;
-  margin: 0 auto;
-}
-
-.buttons div {
-  display: flex;
   align-items: center;
 }
 
-.buttons div p {
-  color: #ff0000;
-  margin-left: 11px;
-  font-size: 17px;
+.buttons button {
+  padding: 8px 39px 8px 20px;
+  font-size: 14px;
+  font-family: "Apercuregular";
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper p {
+  margin-left: 9px;
 }
 
 @media screen and (min-width: 760px) {
   .mainArea {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+    left: 270px;
+    right: 78px;
+    align-items: center;
     width: 90vw;
-    margin: 0 auto;
-    /* grid-template-columns: 1fr 1fr; */
-    /* place-items: center; */
-    /* gap: 0; */
   }
 
-  .section img {
-    width: 45vw;
-    height: 40.25rem;
+  .section {
+    align-self: flex-start;
   }
 
   .second_Section {
     width: 40vw;
+    margin-right: 10px;
+  }
+
+  .para {
+    width: 420px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .buttons {
-    display: flex;
     width: 40vw;
+  }
+
+  .section img {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .buttons button {
+    padding: 15px 39px;
+  }
+
+  .mainArea {
+    display: flex;
+    justify-content: space-around;
+    /* width: 100vw; */
+    /* align-items: center; */
+    position: relative;
+    left: 100px;
+  }
+
+  .section img {
+    margin-left: 0;
+  }
+
+  .second_Section {
+    width: 50vw;
+    /* align-self: flex-start; */
   }
   .second_Section h1 {
     font-size: 45px;
-  }
-  .second_Section p {
-    /* margin-left: 191px; */
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: -0.02em;
-    color: #000000;
-  }
-  .buttons button {
-    padding: 15px 39px;
-    font-size: 1rem;
+    width: 646px;
   }
 
-  .icons {
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (min-width: 920px) {
-  .mainArea {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .buttons button {
-    padding: 1rem 1.5rem;
+  .second_Section p:first-child {
+    width: 446px;
   }
 
-  .buttons {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .buttons div {
-    align-self: center;
-    padding-top: 1rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .section img {
-    width: 25rem;
-    display: flex;
-    margin-left: 2.5rem;
-  }
-  .second_Section {
-    margin-left: 27px;
+  .icon {
+    padding: 18px 17px;
   }
 }
