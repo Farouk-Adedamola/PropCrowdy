@@ -1,5 +1,37 @@
+.blog {
+  margin-top: 87px;
+}
+
 .blog h1 {
   font-family: "Tiemposbold";
   font-size: 27px;
   color: #050505;
+  text-align: center;
+}
+
+.blog p {
+  text-align: center;
+  font-family: "Apercuregular";
+}
+
+.blog img {
+  width: 95vw;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 760px) {
+  .blog h1 {
+    font-size: 30px;
+  }
+
+  .blog p {
+    font-size: 1rem;
+  }
+
+  .blog img {
+    width: 60vw;
+  }
 }
