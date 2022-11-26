@@ -5,6 +5,7 @@ import AsInvestor from "./Components/AsInvestor/AsInvestor";
 import InvestorCards from "./Components/InvestorCards/InvestorCards";
 import FormSection from "./Components/FormSection/FormSection";
 import ChooseProp from "./Components/ChooseProp.js/ChooseProp";
+import Blog from "./Components/BlogSection/Blog";
 import "./App.css";
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <InvestorCards />
       <FormSection />
       <ChooseProp />
+      <Blog />
     </Fragment>
   );
 }

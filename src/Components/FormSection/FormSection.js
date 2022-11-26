@@ -19,6 +19,7 @@ const FormSection = () => {
             <form onSubmit={submitHandler} className={classes.form}>
               <label htmlFor="">Company Introduction</label>
               <input
+                className={classes.input}
                 type="text"
                 name="company"
                 value={company}
@@ -26,6 +27,7 @@ const FormSection = () => {
               />
               <label htmlFor="">Tell Your Story</label>
               <input
+                className={classes.input}
                 type="text"
                 name="story"
                 value={story}

@@ -6,6 +6,15 @@
 
   /* background: ; */
 }
+
+.main {
+  margin-top: 98px;
+}
+
+.main h1 {
+  font-family: "Tiemposbold";
+  text-align: center;
+}
 .wrapper {
   padding-top: 17px;
   display: flex;
@@ -31,7 +40,7 @@
 
 .form label {
   font-size: 13px;
-  font-family: "Tiemposregular";
+  font-family: "Apercuregular";
 }
 
 input {
@@ -70,4 +79,109 @@ input {
   height: 16px;
   width: 50vw;
   margin-top: 9px;
+}
+
+.deal {
+  margin: 0 23px;
+}
+
+.secondCard p {
+  font-family: "Apercuregular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+button {
+  background: #ff0000;
+  border: none;
+  box-shadow: 0px 67px 80px rgba(55, 52, 169, 0.07),
+    0px 43.4259px 46.8519px rgba(55, 52, 169, 0.0531481),
+    0px 25.8074px 25.4815px rgba(55, 52, 169, 0.0425185),
+    0px 13.4px 13px rgba(55, 52, 169, 0.035),
+    0px 5.45926px 6.51852px rgba(55, 52, 169, 0.0274815),
+    0px 1.24074px 3.14815px rgba(55, 52, 169, 0.0168519);
+  border-radius: 47px;
+  padding: 16px 54px;
+  margin-top: 12px;
+  color: #fff;
+}
+
+@media screen and (min-width: 760px) {
+  .section {
+    width: 404px;
+    margin-left: 100px;
+    margin-right: 140px;
+    /* height: 473px; */
+  }
+
+  input {
+    width: 334px;
+  }
+  .contain,
+  .contain2,
+  .contain3 {
+    width: 220px;
+  }
+  .contain1 {
+    /* height: 35px; */
+    width: 315px;
+  }
+
+  .deal p {
+    width: 470px;
+    line-height: 20px;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: start;
+    padding-left: 14px;
+    /* text-align: center; */
+  }
+
+  .overall,
+  .overalll {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .overalll {
+    flex-direction: row-reverse;
+  }
+
+  .button {
+  }
+
+  .secondCard h1 {
+    font-size: 30px;
+  }
+
+  .investment {
+    margin-left: 100px;
+    margin-right: 80px;
+  }
+
+  .Independent img {
+    /* width: 30vw; */
+    object-fit: cover;
+  }
+}
+
+.Independent img {
+  position: relative;
+  top: 83px;
+  left: 31px;
+  right: 0;
+  width: 85vw;
+  max-width: 471px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  /* width: 85vw; */
+  object-fit: cover;
+  /* height: ; */
+}
+
+.investment {
+  margin-top: 3rem;
 }

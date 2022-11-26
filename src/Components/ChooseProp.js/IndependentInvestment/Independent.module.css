@@ -1,0 +1,39 @@
+.deal {
+  margin: 0 23px;
+}
+.secondCard {
+  /* margin-top: ; */
+}
+.secondCard p {
+  font-family: "Apercuregular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+button {
+  background: #ff0000;
+  border: none;
+  box-shadow: 0px 67px 80px rgba(55, 52, 169, 0.07),
+    0px 43.4259px 46.8519px rgba(55, 52, 169, 0.0531481),
+    0px 25.8074px 25.4815px rgba(55, 52, 169, 0.0425185),
+    0px 13.4px 13px rgba(55, 52, 169, 0.035),
+    0px 5.45926px 6.51852px rgba(55, 52, 169, 0.0274815),
+    0px 1.24074px 3.14815px rgba(55, 52, 169, 0.0168519);
+  border-radius: 47px;
+  padding: 16px 54px;
+  margin-top: 12px;
+  color: #fff;
+}
+
+@media screen and (min-width: 760px) {
+  .deal p {
+    width: 470px;
+    line-height: 20px;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: start;
+    padding-left: 14px;
+    /* text-align: center; */
+  }
+}
