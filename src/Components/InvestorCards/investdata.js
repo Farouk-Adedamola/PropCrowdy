@@ -8,18 +8,22 @@ export const card = [
     id: 1,
     img: avatar,
     name: "Set Up Your Account",
+    name1: "Set Up Your Account",
     Text: "Easily sign up with your social media account or create an account with your email",
   },
   {
     id: 2,
     img: search,
     name: "Search Opportunities",
+    name1: "Tell Your Story",
     Text: "Select a project opportunity and invest, get monthly updates on your dashboard.",
   },
   {
     id: 3,
     img: money,
     name: "Fund A Project",
+    name1: "Get Funded",
+
     // css: { backgroundColor: "#fff" },
     Text: "Your return on Investment is deposited into your account at the end of the cycle.",
   },
@@ -27,6 +31,7 @@ export const card = [
     id: 4,
     img: arrowup,
     name: "Get Returns",
+    name1: "Stay Updated",
     Text: "Follow up with trends on your dashboard and monitor your investments",
   },
 ];

@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import classes from "./FormSection.module.css";
 import avater from "../../Assets/DataAssets/avatar.png";
-import Card1 from "../Reusable/Card1";
+import Card2 from "../Reusable/Card2";
 const FormSection = () => {
   const [company, setCompany] = useState("");
   const [story, setStory] = useState("");
@@ -53,7 +53,7 @@ const FormSection = () => {
           </div>
         </section>
         <section className={classes.last}>
-          <Card1 />
+          <Card2 />
         </section>
       </article>
     </Fragment>
