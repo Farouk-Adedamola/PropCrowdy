@@ -1,6 +1,6 @@
 .section {
   background: #f3f7fa;
-  width: 90vw;
+  width: 80vw;
   margin: 3rem auto;
   height: 473px;
 
@@ -107,16 +107,32 @@ button {
   color: #fff;
 }
 
+.Independent img {
+  position: relative;
+  top: 83px;
+  left: 31px;
+  right: 0;
+  width: 85vw;
+  max-width: 400px;
+  object-fit: cover;
+}
+
 @media screen and (min-width: 760px) {
+  .overall {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+  }
   .section {
-    width: 404px;
-    margin-left: 40px;
-    margin-right: 90px;
-    /* height: 473px; */
+    width: 360px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   input {
-    width: 314px;
+    width: 260px;
   }
   .contain,
   .contain2,
@@ -124,8 +140,7 @@ button {
     width: 220px;
   }
   .contain1 {
-    /* height: 35px; */
-    width: 315px;
+    width: 275px;
   }
 
   .deal p {
@@ -135,13 +150,6 @@ button {
     display: flex;
     justify-content: start;
     padding-left: 14px;
-    /* text-align: center; */
-  }
-
-  .overall {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .overalll {
@@ -150,17 +158,10 @@ button {
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
-  }
-
-  .overalll {
     flex-direction: row-reverse;
   }
 
-  .button {
-  }
-
   .secondCard {
-    margin-left: -50px;
     width: 300px;
   }
 
@@ -169,33 +170,18 @@ button {
   }
 
   .secondCard p {
-    width: 350px;
+    width: 260px;
   }
 
   .investment {
-    margin-left: 200px;
-    margin-right: 0px;
+    margin-left: 100px;
+    margin-right: 50px;
   }
 
   .Independent img {
     /* width: 30vw; */
     object-fit: cover;
   }
-}
-
-.Independent img {
-  position: relative;
-  top: 83px;
-  left: 31px;
-  right: 0;
-  width: 85vw;
-  max-width: 471px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* margin: 0 auto; */
-  /* width: 85vw; */
-  object-fit: cover;
-  /* height: ; */
 }
 
 .investment {
@@ -222,7 +208,35 @@ button {
   }
 
   .investment {
-    margin-left: 70px;
+    margin-left: 0px;
     margin-right: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .overall {
+    width: 75vw;
+  }
+
+  .section {
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .secondCard {
+    width: 400px;
+  }
+
+  .secondCard h1 {
+    margin-left: 0;
+  }
+
+  .secondCard p {
+    width: 380px;
+  }
+
+  .investment {
+    margin: 0;
   }
 }

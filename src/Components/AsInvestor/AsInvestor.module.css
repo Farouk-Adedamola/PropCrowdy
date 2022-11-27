@@ -1,11 +1,13 @@
 .container {
-  margin-top: 108px;
-  margin-left: 27px;
+  margin: 2rem auto 0 auto;
+  width: 85vw;
+  /* margin-top: 108px; */
+  /* margin-left: 27px; */
 }
 
 .container h1 {
   font-family: "Tiemposbold";
-  font-size: 27px;
+  font-size: 20px;
 }
 
 .container p {
@@ -23,7 +25,7 @@
     margin-right: auto;
     margin-top: 165px;
     border: 1px solid red;
-    width: 90vw;
+    width: 80vw;
   }
 
   .container h1 {
@@ -41,5 +43,11 @@
 
   .container p {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 75vw;
   }
 }

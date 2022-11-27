@@ -6,6 +6,13 @@
   margin: 2rem 21px 0 21px;
 }
 
+@media screen and (max-width: 450px) {
+  .wrapper {
+    width: 85vw;
+    margin: 2rem auto 0 auto;
+  }
+}
+
 .card {
   background: #d9d9d966;
   /* width: 157px; */
@@ -41,8 +48,11 @@
 }
 
 @media screen and (min-width: 760px) {
+  .wrapper {
+    /* margin-right: 30px; */
+  }
   .card {
-    width: 221px;
+    width: 190px;
   }
   .card img {
     width: 70px;
@@ -50,11 +60,11 @@
   }
 
   .card h1 {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .card p {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 

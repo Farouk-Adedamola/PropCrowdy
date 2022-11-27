@@ -1,7 +1,6 @@
 .mainwrap {
   position: relative;
-
-  margin: 170px auto 0 10px;
+  margin: 70px auto 0 auto;
 }
 
 @media screen and (min-width: 450px) {
@@ -20,15 +19,6 @@
   border-radius: 16px;
   padding: 20px;
 }
-
-/* .card1 {
-  background: red;
-  width: 260px;
-  max-width: 345px;
-  position: relative;
-  border-radius: 16px;
-  padding: 20px;
-} */
 
 .wrap {
   position: absolute;
@@ -83,25 +73,12 @@
 .card2 {
   background: #fff;
   width: 40vw;
-  /* width: 180px; */
-  /* max-width: 295px; */
   padding: 32px 10px 20px 10px;
   border-radius: 22px;
   position: absolute;
   top: 140px;
   left: 170px;
 }
-
-/* .card2 {
-  background: green;
-  width: 230px;
-  max-width: 295px;
-  padding: 32px 10px 20px 10px;
-  border-radius: 22px;
-  position: absolute;
-  top: 100px;
-  left: 200px;
-} */
 
 .secondcard {
   display: flex;
@@ -141,12 +118,14 @@
 }
 
 .section {
-  margin-top: 50px;
-  margin-left: 27px;
+  width: 85vw;
+  margin: 4rem auto 0 auto;
+  /* margin-top: 50px; */
+  /* margin-left: 27px; */
 }
 
 .section h1 {
-  font-size: 27px;
+  font-size: 20px;
   font-family: "Tiemposbold";
 }
 
@@ -164,29 +143,30 @@
   .main {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0 auto 0 auto;
     border: 1px solid red;
-    position: relative;
-    left: 27px;
+    width: 85vw;
   }
 
   .mainwrap {
-    margin-right: 50px;
+    width: 520px;
+    margin-left: 0px;
   }
 
   .card1 {
-    width: 260px;
+    width: 160px;
   }
 
   .card2 {
-    width: 210px;
+    width: 150px;
     position: absolute;
-    left: 210px;
+    left: 150px;
   }
 
   .section {
-    width: auto;
-    margin-left: 143px;
+    width: 350px;
+    /* margin-left: 143px; */
     border: 1px solid red;
   }
 
@@ -207,16 +187,23 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .main {
-    position: relative;
-    left: -10rem;
+    width: 80vw;
   }
-  .section h1 {
-    width: 511px;
+  .card1 {
+    width: 230px;
   }
 
-  .section p {
-    width: 446px;
+  .card2 {
+    width: 210px;
+    position: absolute;
+    left: 170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    width: 70vw;
   }
 }

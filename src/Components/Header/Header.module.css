@@ -7,23 +7,27 @@
 }
 
 .section img {
-  width: 90vw;
+  width: 85vw;
   display: flex;
   justify-content: center;
   max-width: 530px;
+  object-fit: cover;
   margin: 0 auto;
-  height: 485px;
+  height: auto !important;
 }
 
 .second_Section {
-  margin-top: -6rem;
-  margin-left: 27px;
+  margin-top: -3rem;
+  margin-left: 18px;
+  margin-right: auto;
+  width: 85vw !important;
 }
 
 .text {
-  width: 344px;
+  width: 80vw;
+  /* width: 344px; */
   font-family: "Tiemposbold";
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   font-size: 27px;
 }
 
@@ -73,69 +77,68 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    position: relative;
-    left: 220px;
-    right: 78px;
+    margin: 180px 5vw 0 7vw;
+    /* position: relative; */
+    /* left: 220px; */
+    /* right: 78px; */
+    /* margin: 0 auto; */
     align-items: center;
     width: 90vw;
   }
 
   .section {
-    align-self: flex-start;
+    /* align-self: flex-start; */
   }
 
   .second_Section {
-    width: 40vw;
-    margin-right: 10px;
+    /* width: 40vw; */
+    /* margin: 0 auto; */
+
+    /* margin-right: 10px; */
+  }
+
+  .text {
+    width: 300px;
   }
 
   .para {
-    width: 420px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 12px;
     line-height: 30px;
   }
 
   .buttons {
-    width: 40vw;
+    width: 320px;
   }
 
   .section img {
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    width: 380px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .buttons button {
-    padding: 15px 39px;
-  }
-
   .mainArea {
-    display: flex;
     justify-content: space-around;
-    /* width: 100vw; */
-    /* align-items: center; */
-    position: relative;
-    left: 100px;
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
   }
-
   .section img {
-    margin-left: 0;
+    width: 450px;
+  }
+  .text {
+    width: 350px;
   }
 
-  .second_Section {
-    width: 50vw;
-    /* align-self: flex-start; */
+  .para {
+    width: 320px;
+    font-size: 16px;
   }
-  .second_Section h1 {
-    font-size: 45px;
-    width: 646px;
-  }
+}
 
-  .second_Section p:first-child {
-    width: 446px;
-  }
-
-  .icon {
-    padding: 18px 17px;
+@media screen and (min-width: 1200px) {
+  .mainArea {
+    width: 70vw;
   }
 }

@@ -1,7 +1,14 @@
+.secondCard {
+  width: 85vw;
+  /* margin: 2rem auto; */
+}
+
 .deal {
   margin: 0 23px;
 }
 .secondCard h1 {
+  /* display: flex; */
+  /* justify-content: flex-start; */
   margin-left: 25px;
   text-align: left;
   /* margin-top: ; */
@@ -29,8 +36,13 @@ button {
 }
 
 @media screen and (min-width: 760px) {
+  .secondCard {
+    width: 350px;
+  }
   .secondCard h1 {
     margin-left: 32px;
+    font-size: 27px;
+    /* text-align: l; */
   }
   .deal p {
     width: 370px;

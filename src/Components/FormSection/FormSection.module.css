@@ -1,6 +1,6 @@
 .section {
   background: #f3f7fa;
-  width: 75vw;
+  width: 65vw;
   margin: 3rem auto;
   height: 492px;
 
@@ -56,7 +56,7 @@
 .input {
   /* flex: 1; */
   /* width: auto; */
-  width: 50vw;
+  width: 40vw;
   padding: 0.5rem;
   margin: 0 35px 15px 0;
   border: none;
@@ -75,9 +75,7 @@
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
   border-radius: 10px;
 
-  /* width: 45vw; */
   padding: 10px 30px 10px 0;
-  /* height: 85px; */
 }
 
 .avater1 {
@@ -88,9 +86,8 @@
 
 .avater2 {
   position: absolute;
-  top: 425px;
-  /* bottom: -2rem; */
-  right: -25px;
+  top: 435px;
+  right: -35px;
 }
 
 .avater1 img,
@@ -138,22 +135,24 @@
 }
 
 @media screen and (min-width: 760px) {
-  .overall {
+  /* .overall {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     margin-top: 80px;
+  } */
+
+  .overall {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px auto 0 auto;
+    width: 75vw;
   }
 
   .section {
     width: 300px;
     margin-left: 70px;
     margin-right: 50px;
-    /* margin-right: 50px; */
-  }
-
-  .last {
-    /* margin-top: -3rem; */
   }
 
   .input {
@@ -172,10 +171,6 @@
   .form label {
     font-size: 15px;
     font-family: "Tiemposregular";
-  }
-
-  .avater1 {
-    /* top: 320px; */
   }
 
   .avater1 {
@@ -235,15 +230,11 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .section {
-    margin-left: 160px;
-    margin-right: 130px;
+  .overall {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px auto 0 auto;
+    width: 75vw;
   }
-
-  /* .section {
-    margin-left: 180px;
-  }
-  .last {
-    margin-right: 100px;
-  } */
 }
