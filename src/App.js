@@ -10,6 +10,7 @@ import FundedCompanies from "./Components/FundedCompanies/FundedCompanies";
 import Contact from "./Components/ContactSupport/Contact";
 import "./App.css";
 import Footer from "./Pagination/Footer/Footer";
+import AsDeveloper from "./Components/AsInvestor/AsDeveloper";
 function App() {
   return (
     <Fragment>
@@ -17,6 +18,7 @@ function App() {
       <PeoplePlay />
       <AsInvestor />
       <InvestorCards />
+      <AsDeveloper />
       <FormSection />
       <ChooseProp />
       <Blog />
