@@ -38,3 +38,10 @@
     url("./fonts/Apercu-pro/apercu_regular_pro.otf") format("truetype");
   font-weight: 600;
 } */
+
+body {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  position: absolute;
+  overflow-x: hidden;
+}
