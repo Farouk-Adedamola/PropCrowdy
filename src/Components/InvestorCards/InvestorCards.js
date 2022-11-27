@@ -24,18 +24,6 @@ const InvestorCards = () => {
           <div className={classes.design}></div>
           <div className={classes.second}></div>
         </div>
-        {/* <div className={classes.wrapper}>
-          {card.map((each) => {
-            const { id, img, Text, name } = each;
-            return (
-              <div key={id} className={classes.card}>
-                <img src={img} alt="images" />
-                <h1>{name}</h1>
-                <p>{Text}</p>
-              </div>
-            );
-          })}
-        </div> */}
         <Card1 />
       </section>
     </Fragment>

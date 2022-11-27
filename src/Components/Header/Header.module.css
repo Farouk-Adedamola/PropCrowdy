@@ -24,23 +24,23 @@
 }
 
 .text {
-  width: 80vw;
+  width: 85vw;
   /* width: 344px; */
   font-family: "Tiemposbold";
   margin: 1.5rem 0;
-  font-size: 27px;
+  font-size: 20px;
 }
 
 .para {
   font-family: "Apercuregular";
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 14px;
-  width: 314px;
+  width: 85vw;
 }
 
 .icon {
   background: #22d497;
-  padding: 13px;
+  padding: 10px;
   box-shadow: 0px 100px 80px rgba(34, 212, 151, 0.07),
     0px 64.8148px 46.8519px rgba(34, 212, 151, 0.0531481),
     0px 38.5185px 25.4815px rgba(34, 212, 151, 0.0425185),
@@ -58,10 +58,11 @@
 }
 
 .buttons button {
-  padding: 8px 39px 8px 20px;
-  font-size: 14px;
+  padding: 8px 24px 8px 20px;
+  font-size: 12px;
   font-family: "Apercuregular";
 }
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -70,6 +71,8 @@
 
 .wrapper p {
   margin-left: 9px;
+  font-size: 12px;
+  font-family: "Apercureegular";
 }
 
 @media screen and (min-width: 760px) {
@@ -78,32 +81,18 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 180px 5vw 0 7vw;
-    /* position: relative; */
-    /* left: 220px; */
-    /* right: 78px; */
-    /* margin: 0 auto; */
     align-items: center;
     width: 90vw;
   }
 
-  .section {
-    /* align-self: flex-start; */
-  }
-
-  .second_Section {
-    /* width: 40vw; */
-    /* margin: 0 auto; */
-
-    /* margin-right: 10px; */
-  }
-
   .text {
     width: 300px;
+    font-size: 27px;
   }
 
   .para {
     width: 250px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 30px;
   }
 
@@ -111,9 +100,23 @@
     width: 320px;
   }
 
+  .buttons button {
+    padding: 8px 39px 8px 20px;
+    font-size: 14px;
+    font-family: "Apercuregular";
+  }
+
+  .wrapper p {
+    font-size: 15px;
+  }
+
   .section img {
     /* margin-left: 10px; */
     width: 380px;
+  }
+
+  .icon {
+    padding: 13px;
   }
 }
 
@@ -129,16 +132,51 @@
   }
   .text {
     width: 350px;
+    font-size: 30px;
   }
 
   .para {
     width: 320px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .mainArea {
     width: 70vw;
+  }
+
+  .text {
+    width: 400px;
+  }
+
+  .para {
+    width: 370px;
+  }
+}
+
+/* whatsapp section */
+.whatsapp {
+  position: relative;
+}
+
+.whatsapp img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 75vw;
+}
+
+@media screen and (min-width: 1000px) {
+  .whatsapp {
+    position: absolute;
+    top: 60vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .whatsapp {
+    position: absolute;
+    top: 50vh;
   }
 }

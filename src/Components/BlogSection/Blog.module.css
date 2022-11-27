@@ -4,18 +4,19 @@
 
 .blog h1 {
   font-family: "Tiemposbold";
-  font-size: 27px;
+  font-size: 20px;
   color: #050505;
   text-align: center;
 }
 
 .blog p {
   text-align: center;
+  font-size: 12px;
   font-family: "Apercuregular";
 }
 
 .blog img {
-  width: 95vw;
+  width: 90vw;
   object-fit: cover;
   display: flex;
   justify-content: center;

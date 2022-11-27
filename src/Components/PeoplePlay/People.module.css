@@ -130,7 +130,7 @@
 }
 
 .section p {
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Apercuregular";
 }
 
@@ -145,7 +145,6 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto 0 auto;
-    border: 1px solid red;
     width: 85vw;
   }
 
@@ -167,10 +166,14 @@
   .section {
     width: 350px;
     /* margin-left: 143px; */
-    border: 1px solid red;
+  }
+
+  .section p {
+    font-size: 14px;
   }
 
   .section h1 {
+    margin-top: 5rem;
     font-size: 30px;
     color: #050505;
   }
@@ -183,7 +186,6 @@
   .section img {
     margin-top: 37px;
     width: 300px;
-    border: 1px solid red;
   }
 }
 
@@ -194,7 +196,9 @@
   .card1 {
     width: 230px;
   }
-
+  .section p {
+    font-size: 1rem;
+  }
   .card2 {
     width: 210px;
     position: absolute;
@@ -205,5 +209,13 @@
 @media screen and (min-width: 1200px) {
   .main {
     width: 70vw;
+  }
+
+  .section {
+    width: 500px;
+  }
+
+  .section p {
+    width: 450px;
   }
 }

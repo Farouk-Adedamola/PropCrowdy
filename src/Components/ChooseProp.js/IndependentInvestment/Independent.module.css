@@ -6,18 +6,17 @@
 .deal {
   margin: 0 23px;
 }
+
 .secondCard h1 {
-  /* display: flex; */
-  /* justify-content: flex-start; */
   margin-left: 25px;
   text-align: left;
-  /* margin-top: ; */
 }
 .secondCard p {
   font-family: "Apercuregular";
-  font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+  font-size: 12px;
+  width: 85vw;
 }
 
 button {
@@ -31,7 +30,7 @@ button {
     0px 1.24074px 3.14815px rgba(55, 52, 169, 0.0168519);
   border-radius: 47px;
   padding: 16px 54px;
-  margin-top: 12px;
+  margin-top: 4px;
   color: #fff;
 }
 
@@ -50,7 +49,16 @@ button {
     margin-bottom: 42px;
     display: flex;
     justify-content: start;
-    padding-left: 14px;
-    /* text-align: center; */
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .secondCard {
+    width: 450px;
+    margin-left: 0;
+  }
+  .secondCard p {
+    font-size: 1rem;
   }
 }

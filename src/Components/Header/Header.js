@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import classes from "./Header.module.css";
-import WhatsappLogo from "../WhatsappLogo";
+// import WhatsappLogo from "../WhatsappLogo";
+
+import whatsapp from "../../Assets/WhatsAppicon.svg";
 
 //  images import
 import group11 from "../../Assets/Group11.png";
@@ -34,7 +36,10 @@ const Header = () => {
           </div>
         </section>
       </main>
-      <WhatsappLogo />
+      <div className={classes.whatsapp}>
+        <img src={whatsapp} alt="whatsapp-icon" />
+      </div>
+      {/* <WhatsappLogo /> */}
     </Fragment>
   );
 };

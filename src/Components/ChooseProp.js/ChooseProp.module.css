@@ -14,6 +14,7 @@
 .main h1 {
   font-family: "Tiemposbold";
   text-align: center;
+  font-size: 20px;
 }
 .wrapper {
   padding-top: 17px;
@@ -45,8 +46,7 @@
 
 input {
   flex: 1;
-  width: auto;
-  width: 70vw;
+  width: 60vw;
   padding: 0.5rem;
   margin: 0 35px 15px 0;
   border: none;
@@ -87,7 +87,8 @@ input {
 
 .secondCard p {
   font-family: "Apercuregular";
-  font-size: 14px;
+  font-size: 12px;
+  width: 85vw;
   font-weight: 400;
   line-height: 17px;
 }
@@ -115,6 +116,10 @@ button {
   width: 85vw;
   max-width: 400px;
   object-fit: cover;
+}
+
+.investment {
+  margin-top: 3rem;
 }
 
 @media screen and (min-width: 760px) {
@@ -148,6 +153,7 @@ button {
     line-height: 20px;
     margin-bottom: 42px;
     display: flex;
+    font-size: 14px;
     justify-content: start;
     padding-left: 14px;
   }
@@ -182,10 +188,10 @@ button {
     /* width: 30vw; */
     object-fit: cover;
   }
-}
 
-.investment {
-  margin-top: 3rem;
+  .main h1 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -218,10 +224,19 @@ button {
     width: 75vw;
   }
 
+  .Independent img {
+    /* height: 550px;s */
+    object-fit: contain;
+  }
+
+  .overalll {
+    margin: 0 auto;
+  }
+
   .section {
     width: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .secondCard {
@@ -229,11 +244,12 @@ button {
   }
 
   .secondCard h1 {
-    margin-left: 0;
+    margin-left: -7rem;
   }
 
   .secondCard p {
     width: 380px;
+    font-size: 1rem;
   }
 
   .investment {

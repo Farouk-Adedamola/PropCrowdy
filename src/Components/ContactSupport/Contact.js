@@ -12,11 +12,11 @@ const Contact = () => {
         <div className={classes.btn}>
           <button type="button">Contact us</button>
         </div>
+        <div className={classes.box1}></div>
+        <div className={classes.box2}></div>
+        <div className={classes.box3}></div>
+        <div className={classes.box4}></div>
       </div>
-      <div className={classes.box1}></div>
-      <div className={classes.box2}></div>
-      <div className={classes.box3}></div>
-      <div className={classes.box4}></div>
     </section>
   );
 };
