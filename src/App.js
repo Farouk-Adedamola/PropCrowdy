@@ -32,7 +32,6 @@ function App() {
           cssOverride={{
             display: "block",
             margin: "40vh auto",
-            // transform: "translateY(50vh)",
           }}
         />
       ) : (
