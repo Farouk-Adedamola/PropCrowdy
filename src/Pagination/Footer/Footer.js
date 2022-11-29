@@ -8,28 +8,80 @@ const Footer = () => {
   return (
     // <img src={footermobile} alt="footermobile" />
     // <img src={footerdesktop} alt="footerdesktop" />
-    <Fragment className={classes.footer}>
-      <section>
-        <article>
-          <h1>PropCrowdy</h1>
-          <p>Fundraising</p>
-          <p>
-            PropCrowdy is a crowd investment platform that empowers Nigerians to
-            make smart investments
-          </p>
-          {Icons.map((each) => {
-            const { id, icon } = each;
-            return (
-              <div key={id}>
-                <p>{icon}</p>
-              </div>
-            );
-          })}
-        </article>
-
-        <article></article>
-
-        <article></article>
+    <Fragment>
+      <section className={classes.footer}>
+        <main className={classes.main}>
+          <article className={classes.footerhead}>
+            <div className={classes.wrap}>
+              <h1>PropCrowdy</h1>
+              <h3>Fundraising</h3>
+            </div>
+            <p className={classes.text}>
+              PropCrowdy is a crowd investment platform that empowers Nigerians
+              to make smart investments
+            </p>
+            <div className={classes.icons}>
+              {Icons.map((each) => {
+                const { id, icon } = each;
+                return (
+                  <div key={id} className={classes.iconwrap}>
+                    <h4 className={classes.iconic}>
+                      <a href="">{icon}</a>
+                    </h4>
+                  </div>
+                );
+              })}
+            </div>
+          </article>
+          <section className={classes.section}>
+            <article className={classes.article}>
+              <h1>About us</h1>
+              {AboutUs.map((each) => {
+                const { id, name } = each;
+                return (
+                  <div key={id} className={classes.about}>
+                    <p>
+                      <a href="/">{name}</a>
+                    </p>
+                  </div>
+                );
+              })}
+            </article>
+            <article>
+              <h1>Quick Nav</h1>
+              {QuickNav.map((each) => {
+                const { id, name } = each;
+                return (
+                  <div key={id}>
+                    <p>
+                      <a href="/">{name}</a>
+                    </p>
+                  </div>
+                );
+              })}
+            </article>
+          </section>
+          <article>
+            <h1>Contact us</h1>
+            {ContactUs.map((each) => {
+              const { id, name } = each;
+              return (
+                <div key={id}>
+                  <p>
+                    <a href="/">{name}</a>
+                  </p>
+                </div>
+              );
+            })}
+            <form className={classes.input}>
+              <input type="text" placeholder="example@propcrowdy.com" />
+              <button type="submit">
+                <a href="">JOIN</a>
+              </button>
+            </form>
+          </article>
+        </main>
+        <div className={classes.underline}></div>
       </section>
     </Fragment>
   );

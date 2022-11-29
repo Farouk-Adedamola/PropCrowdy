@@ -1,0 +1,138 @@
+.footer {
+  margin-top: 5rem;
+  background: #000000;
+  padding: 3rem 0 6rem 0;
+}
+
+.main {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.footer h1 {
+  font-family: "Tiemposbold";
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.wrap h1:first-child {
+  font-size: 1.8rem;
+  color: #ff0000;
+  margin-bottom: 0;
+}
+
+.footer h3 {
+  text-align: center;
+  font-size: 14.5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 18px;
+  color: #777777;
+}
+
+.footer p {
+  font-family: "Apercuregular";
+  font-size: 15px;
+  color: #777777;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #777777;
+}
+
+.footerhead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  line-height: 5px;
+}
+
+.text {
+  margin-top: 0;
+  text-align: center;
+  width: 80vw;
+  color: #777777;
+}
+
+.icons {
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.iconwrap {
+  margin-top: 0;
+}
+
+.iconic {
+  margin-top: 0;
+  margin-top: 1rem;
+  border-radius: 45%;
+  padding: 0.2rem 0.3rem;
+  font-size: 1.4rem;
+  background: #fff;
+}
+
+.iconic a {
+  color: #000000;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  width: 85vw;
+  justify-content: center;
+}
+
+.input input {
+  border-radius: 2rem 0 0 2rem;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 1.4rem 1.2rem;
+  align-self: center;
+  margin-top: 16px;
+  height: 1.4rem;
+  margin-right: 0;
+  color: #777777;
+}
+
+.input button {
+  /* margin-top: 0; */
+  align-self: center;
+  background: #fff;
+  color: #777777;
+  margin: 0;
+  margin-bottom: 0;
+  padding: 1rem 1.2rem;
+  background: #fff;
+  box-shadow: none;
+  border-radius: 0 2rem 2rem 0;
+  margin-left: 0;
+  font-family: "Tiemposregular";
+}
+
+.input button a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.underline {
+  height: 3px;
+  background: #777777;
+  width: 85vw;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
