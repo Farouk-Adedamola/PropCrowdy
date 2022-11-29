@@ -7,6 +7,10 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
+import { MdLocationOn, MdMessage } from "react-icons/md";
+import { BsTelephoneFill } from "react-icons/bs";
+// import { MdMessage } from "react-icons/md";
+
 export const Icons = [
   {
     id: 1,
@@ -67,14 +71,17 @@ export const QuickNav = [
 export const ContactUs = [
   {
     id: 1,
+    icon: <MdLocationOn />,
     name: "21, Adeyemo Alakija Street, Victoria Island Lagos, Nigeria",
   },
   {
     id: 2,
+    icon: <BsTelephoneFill />,
     name: "+2349030666593",
   },
   {
     id: 1,
+    icon: <MdMessage />,
     name: "info@propcrowdy.com",
   },
 ];

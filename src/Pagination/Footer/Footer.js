@@ -6,8 +6,6 @@ import { Icons, AboutUs, QuickNav, ContactUs } from "./data";
 
 const Footer = () => {
   return (
-    // <img src={footermobile} alt="footermobile" />
-    // <img src={footerdesktop} alt="footerdesktop" />
     <Fragment>
       <section className={classes.footer}>
         <main className={classes.main}>
@@ -26,62 +24,68 @@ const Footer = () => {
                 return (
                   <div key={id} className={classes.iconwrap}>
                     <h4 className={classes.iconic}>
-                      <a href="">{icon}</a>
+                      <a href="/">{icon}</a>
                     </h4>
                   </div>
                 );
               })}
             </div>
           </article>
-          <section className={classes.section}>
-            <article className={classes.article}>
-              <h1>About us</h1>
-              {AboutUs.map((each) => {
-                const { id, name } = each;
-                return (
-                  <div key={id} className={classes.about}>
-                    <p>
-                      <a href="/">{name}</a>
-                    </p>
-                  </div>
-                );
-              })}
-            </article>
+          <div className={classes.container}>
+            <section className={classes.section}>
+              <article className={classes.article}>
+                <h1>About us</h1>
+                {AboutUs.map((each) => {
+                  const { id, name } = each;
+                  return (
+                    <div key={id} className={classes.about}>
+                      <p>
+                        <a href="/">{name}</a>
+                      </p>
+                    </div>
+                  );
+                })}
+              </article>
+              <article>
+                <h1>Quick Nav</h1>
+                {QuickNav.map((each) => {
+                  const { id, name } = each;
+                  return (
+                    <div key={id}>
+                      <p>
+                        <a href="/">{name}</a>
+                      </p>
+                    </div>
+                  );
+                })}
+              </article>
+            </section>
             <article>
-              <h1>Quick Nav</h1>
-              {QuickNav.map((each) => {
-                const { id, name } = each;
+              <h1>Contact us</h1>
+              {ContactUs.map((each) => {
+                const { id, name, icon } = each;
                 return (
-                  <div key={id}>
+                  <div key={id} className={classes.wrapper}>
                     <p>
-                      <a href="/">{name}</a>
+                      <a href="/">
+                        <span>{icon}</span>
+                        {name}
+                      </a>
                     </p>
                   </div>
                 );
               })}
+              <form className={classes.input}>
+                <input type="text" placeholder="example@propcrowdy.com" />
+                <button type="submit">
+                  <a href="">JOIN</a>
+                </button>
+              </form>
             </article>
-          </section>
-          <article>
-            <h1>Contact us</h1>
-            {ContactUs.map((each) => {
-              const { id, name } = each;
-              return (
-                <div key={id}>
-                  <p>
-                    <a href="/">{name}</a>
-                  </p>
-                </div>
-              );
-            })}
-            <form className={classes.input}>
-              <input type="text" placeholder="example@propcrowdy.com" />
-              <button type="submit">
-                <a href="">JOIN</a>
-              </button>
-            </form>
-          </article>
+          </div>
         </main>
         <div className={classes.underline}></div>
+        <div className={classes.copyright}>&copy; propcrowdy 2022</div>
       </section>
     </Fragment>
   );

@@ -130,9 +130,103 @@
 }
 
 .underline {
-  height: 3px;
+  height: 1.5px;
   background: #777777;
   width: 85vw;
   border-radius: 1rem;
   margin: 0 auto;
+}
+
+.copyright {
+  display: none;
+}
+
+.wrapper p a {
+  display: flex;
+}
+.wrapper p a span {
+  color: #ff0000;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+p a:hover {
+  transition: all 1s;
+}
+
+p a:hover {
+  color: #fff;
+}
+
+@media screen and (min-width: 920px) {
+  .main {
+    display: flex;
+    width: 90vw;
+  }
+
+  .footerhead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30vw;
+  }
+
+  .text {
+    text-align: left;
+    width: 30vw;
+  }
+
+  .icons {
+    display: flex;
+    width: 20vw;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+
+  .iconic {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-top: 6rem;
+    justify-self: baseline;
+  }
+
+  .container {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 15vw;
+  }
+
+  .input input {
+    padding: 1.4rem 1.2rem;
+    margin-left: 7rem;
+    height: 1rem;
+    justify-self: flex-end;
+  }
+
+  .input button {
+    padding: 0.8rem 1.4rem;
+  }
+
+  .section {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .underline {
+    width: 90vw;
+    margin-left: 10vw;
+  }
+  .copyright {
+    display: block;
+    color: #777777;
+    font-family: "Apercuregular";
+    font-size: 1rem;
+    margin-left: 10vw;
+  }
 }
