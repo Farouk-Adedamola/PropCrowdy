@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       {loading ? (
         <DotLoader
           color={"#FF0000"}

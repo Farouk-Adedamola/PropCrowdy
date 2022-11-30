@@ -77,6 +77,53 @@
 
 @media screen and (min-width: 760px) {
   .mainArea {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* padding: 60px 78px 0 120px; */
+    align-items: center;
+  }
+
+  .section {
+    width: 300px;
+    /* width: ; */
+    /* width: 30%; */
+  }
+
+  .second_Section {
+    width: 300px;
+  }
+
+  .section img {
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    /* width: 50%; */
+  }
+  .text {
+    width: 300px;
+  }
+  .para {
+    width: 300px;
+  }
+
+  .buttons {
+    width: 300px;
+  }
+  /* .mainArea {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 180px 5vw 0 7vw;
+    align-items: center;
+    width: 90vw;
+  } */
+}
+
+/* @media screen and (min-width: 760px) {
+  .mainArea {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -111,15 +158,14 @@
   }
 
   .section img {
-    /* margin-left: 10px; */
     width: 380px;
   }
 
   .icon {
     padding: 13px;
   }
-}
-
+} */
+/* 
 @media screen and (min-width: 1000px) {
   .mainArea {
     justify-content: space-around;
@@ -139,8 +185,8 @@
     width: 320px;
     font-size: 1rem;
   }
-}
-
+} */
+/* 
 @media screen and (min-width: 1200px) {
   .mainArea {
     width: 70vw;
@@ -153,8 +199,7 @@
   .para {
     width: 370px;
   }
-}
-
+} */
 /* whatsapp section */
 .whatsapp {
   position: relative;
@@ -167,16 +212,16 @@
   left: 75vw;
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .whatsapp {
     position: absolute;
     top: 60vh;
   }
-}
+} */
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .whatsapp {
     position: absolute;
     top: 50vh;
   }
-}
+} */
