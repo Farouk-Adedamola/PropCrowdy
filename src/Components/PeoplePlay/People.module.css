@@ -3,18 +3,9 @@
   margin: 70px auto 0 auto;
 }
 
-@media screen and (min-width: 450px) {
-  .mainwrap {
-    position: relative;
-    left: 27px;
-  }
-}
-
 .card1 {
   background: #fff;
   width: 45vw;
-  /* width: 200px; */
-  /* max-width: 345px; */
   position: relative;
   border-radius: 16px;
   padding: 20px;
@@ -120,8 +111,6 @@
 .section {
   width: 85vw;
   margin: 4rem auto 0 auto;
-  /* margin-top: 50px; */
-  /* margin-left: 27px; */
 }
 
 .section h1 {
@@ -165,7 +154,7 @@
 
   .section {
     width: 350px;
-    /* margin-left: 143px; */
+    margin-left: 143px;
   }
 
   .section p {
@@ -189,10 +178,13 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
-  .main {
-    width: 80vw;
+@media screen and (min-width: 800px) {
+  .section {
+    margin-left: 0;
   }
+}
+
+@media screen and (min-width: 1000px) {
   .card1 {
     width: 230px;
   }
@@ -207,10 +199,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .main {
-    width: 70vw;
-  }
-
   .section {
     width: 500px;
   }

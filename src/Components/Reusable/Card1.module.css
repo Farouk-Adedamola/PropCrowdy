@@ -3,11 +3,8 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 14.2px;
   justify-content: center;
-  /* margin-top: 2rem; */
   width: 70vw;
-  /* margin-left: -2rem; */
   margin: 2rem auto 0 auto;
-  /* margin: 2rem 21px 0 21px; */
 }
 
 .card {
@@ -40,10 +37,14 @@
 
 @media screen and (min-width: 760px) {
   .wrapper {
-    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 50%;
+    margin-left: 100px;
   }
   .card {
-    width: 190px;
+    height: 206px;
   }
   .card img {
     width: 70px;
@@ -55,18 +56,19 @@
   }
 
   .card p {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .wrapper {
-    width: 500px;
-    margin-left: 0;
-    margin-right: 50px;
-  }
+  /* .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 50%;
+  } */
 
   .card {
-    width: 250px;
+    width: 221px;
   }
 }

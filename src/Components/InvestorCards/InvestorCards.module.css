@@ -84,15 +84,18 @@
 @media screen and (min-width: 760px) {
   .section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    /* width: 80vw; */
     margin: 4rem auto 0 auto;
   }
   .firstwrapper {
-    margin-left: 60px;
-    margin-right: 60px;
-    width: 300px;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
+    /* width: 50%; */
+    /* margin-left: 60px; */
+    /* margin-right: 60px; */
+    /* width: 300px; */
   }
 
   .persons {
@@ -109,9 +112,7 @@
 
 @media screen and (min-width: 1000px) {
   .firstwrapper {
-    margin-left: 50px;
-    margin-right: 60px;
-    width: 380px;
+    width: 50%;
   }
 
   .persons {
@@ -119,7 +120,7 @@
   }
 
   .design {
-    left: 265px;
+    left: 260px;
   }
 }
 
@@ -127,11 +128,19 @@
   .section {
     display: flex;
     justify-content: space-between;
-    width: 75vw;
+    /* width: 75vw; */
     margin: 4rem auto 0 auto;
   }
+
   .firstwrapper {
-    margin-right: -70px;
-    margin-left: 0;
+    width: 50%;
+  }
+
+  .persons {
+    width: 400px;
+  }
+
+  .design {
+    left: 410px;
   }
 }

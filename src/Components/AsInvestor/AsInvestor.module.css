@@ -1,8 +1,6 @@
 .container {
   margin: 2rem auto 0 auto;
   width: 85vw;
-  /* margin-top: 108px; */
-  /* margin-left: 27px; */
 }
 
 .container h1 {
@@ -22,7 +20,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 165px;
-    width: 80vw;
   }
 
   .container h1 {
@@ -34,20 +31,14 @@
     display: block;
     font-size: 1rem;
     line-height: 25px;
-    width: 70vw;
   }
 
   .container p {
-    /* display: none; */
     font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    width: 75vw;
-  }
-
   .container p {
     font-size: 1rem;
   }
