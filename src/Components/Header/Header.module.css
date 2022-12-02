@@ -113,14 +113,10 @@
   .buttons {
     width: 300px;
   }
-  /* .mainArea {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin: 180px 5vw 0 7vw;
-    align-items: center;
-    width: 90vw;
-  } */
+  .mainArea {
+    padding-left: 120px;
+    padding-right: 78px;
+  }
 }
 
 @media screen and (min-width: 1000px) {

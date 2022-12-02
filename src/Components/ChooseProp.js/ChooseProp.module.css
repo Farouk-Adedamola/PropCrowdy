@@ -3,8 +3,6 @@
   width: 80vw;
   margin: 3rem auto;
   height: 473px;
-
-  /* background: ; */
 }
 
 .main {
@@ -36,7 +34,6 @@
   flex-direction: column;
   line-height: 2rem;
   margin-top: 1rem;
-  /* line-height: 17px; */
 }
 
 .form label {
@@ -123,17 +120,18 @@ button {
 }
 
 @media screen and (min-width: 760px) {
+  .main {
+    padding-left: 120px;
+    padding-right: 78px;
+  }
   .overall {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 80vw;
-    margin: 0 auto;
   }
+
   .section {
     width: 360px;
-    margin-left: 50px;
-    margin-right: 50px;
   }
 
   input {
@@ -160,32 +158,26 @@ button {
 
   .overalll {
     display: flex;
-    width: 80vw;
-    justify-content: space-around;
-    margin: 0 auto;
+    width: 100vw;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
   }
 
   .secondCard {
-    width: 300px;
+    width: 50%;
   }
 
   .secondCard h1 {
     font-size: 30px;
+    text-align: left;
   }
 
   .secondCard p {
     width: 260px;
   }
 
-  .investment {
-    margin-left: 100px;
-    margin-right: 50px;
-  }
-
   .Independent img {
-    /* width: 30vw; */
     object-fit: cover;
   }
 
@@ -197,9 +189,9 @@ button {
 @media screen and (min-width: 1000px) {
   .overall {
     display: flex;
-    width: 80vw;
+    /* width: 80vw; */
     justify-content: space-between;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .section {
@@ -208,24 +200,27 @@ button {
   }
   .overalll {
     display: flex;
-    width: 80vw;
-    justify-content: space-around;
-    margin: 0 auto;
+    /* width: 80vw; */
+    justify-content: space-between;
+    /* margin: 0 auto; */
   }
 
   .investment {
     margin-left: 0px;
-    margin-right: 80px;
+    /* margin-right: 0; */
+    width: 400px;
+    display: flex;
+    justify-self: flex-start;
+    /* margin-right: 80px; */
+  }
+
+  .Independent {
+    margin-right: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .overall {
-    width: 75vw;
-  }
-
   .Independent img {
-    /* height: 550px;s */
     object-fit: contain;
   }
 
@@ -239,12 +234,13 @@ button {
     margin-right: 0px;
   }
 
-  .secondCard {
-    width: 400px;
-  }
+  /* .secondCard {
+    width: 50%;
+  } */
 
   .secondCard h1 {
-    margin-left: -7rem;
+    text-align: left;
+    margin: 0;
   }
 
   .secondCard p {

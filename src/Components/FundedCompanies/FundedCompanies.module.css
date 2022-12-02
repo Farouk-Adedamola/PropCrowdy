@@ -34,6 +34,11 @@
 }
 
 @media screen and (min-width: 760px) {
+  .blog {
+    width: 100vw;
+    padding-left: 120px;
+    padding-right: 78px;
+  }
   .blog h1 {
     font-size: 30px;
   }

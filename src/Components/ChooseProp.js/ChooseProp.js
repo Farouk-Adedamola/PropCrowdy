@@ -38,8 +38,8 @@ const ChooseProp = () => {
             </div>
           </section>
           <section className={classes.secondCard}>
-            <h1>Our Deal Room</h1>
             <div className={classes.deal}>
+              <h1>Our Deal Room</h1>
               <p>
                 Our deal room provides you all the documentary evidence you need
                 to know about an investment. As part of our due-diligence

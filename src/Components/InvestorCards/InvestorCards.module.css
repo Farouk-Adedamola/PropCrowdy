@@ -86,16 +86,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 70px;
+    padding-right: 78px;
     /* width: 80vw; */
     margin: 4rem auto 0 auto;
-  }
-  .firstwrapper {
-    /* padding-left: 25px; */
-    /* padding-right: 25px; */
-    /* width: 50%; */
-    /* margin-left: 60px; */
-    /* margin-right: 60px; */
-    /* width: 300px; */
   }
 
   .persons {
@@ -107,6 +101,13 @@
     position: absolute;
     top: 200px;
     left: 200px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .section {
+    padding-left: 120px;
+    padding-right: 78px;
   }
 }
 
@@ -128,7 +129,6 @@
   .section {
     display: flex;
     justify-content: space-between;
-    /* width: 75vw; */
     margin: 4rem auto 0 auto;
   }
 

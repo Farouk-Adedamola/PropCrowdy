@@ -135,6 +135,8 @@
     justify-content: space-between;
     margin: 0 auto 0 auto;
     width: 85vw;
+    padding-left: 120px;
+    padding-right: 78px;
   }
 
   .mainwrap {
