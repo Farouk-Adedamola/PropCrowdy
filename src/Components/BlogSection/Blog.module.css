@@ -25,9 +25,9 @@
 
 @media screen and (min-width: 760px) {
   .blog {
-    width: 100vw;
-    padding-left: 120px;
-    padding-right: 78px;
+    /* width: 100vw; */
+    /* padding-left: 120px; */
+    /* padding-right: 78px; */
     margin: 100px auto 0 auto;
   }
   .blog h1 {

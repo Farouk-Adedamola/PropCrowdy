@@ -46,7 +46,7 @@ function App() {
           <Blog />
           <FundedCompanies />
           <Contact />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       )}
     </div>

@@ -1,6 +1,5 @@
 .secondCard {
   width: 85vw;
-  /* margin: 2rem auto; */
 }
 
 .deal {
@@ -36,10 +35,11 @@ button {
 
 @media screen and (min-width: 760px) {
   .secondCard {
+    /* margin-right: 100px; */
     width: 350px;
   }
   .secondCard h1 {
-    margin-left: 32px;
+    /* margin-left: 32px; */
     font-size: 27px;
     /* text-align: l; */
   }
@@ -55,7 +55,7 @@ button {
 
 @media screen and (min-width: 1200px) {
   .secondCard {
-    width: 450px;
+    width: 50%;
     margin-left: 0;
   }
   .secondCard p {
