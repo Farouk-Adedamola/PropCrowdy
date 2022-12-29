@@ -8,7 +8,6 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const linksContainerRef = useRef(null);
   const linksRef = useRef(null);
-  //   const [fix, setFix] = useState(false);
 
   useEffect(() => {
     if (toggle) {
@@ -70,7 +69,7 @@ const Navbar = () => {
                   textDecoration: isActive ? "underline" : "none",
                 };
               }}
-              to="how it works"
+              to="how"
             >
               How it works
             </NavLink>

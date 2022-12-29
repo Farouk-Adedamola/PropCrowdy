@@ -1,14 +1,14 @@
 import React, { Fragment, useState, useEffect } from "react";
 import DotLoader from "react-spinners/ClipLoader";
-import classes from "./App.module.css";
 import Home from "./pages/Home/Home";
-import Navbar from "./pages/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SharedLayout from "./SharedLayout";
 import Discover from "./pages/Discover";
 import Dashboard from "./pages/Dashboard";
 import Blog from "./pages/Blog";
 import Error from "./pages/Error";
+import Resources from "./pages/Resources";
+// import HowItpage from "./pages/HowItpage.Js";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div style={{ width: "100%" }}>
+    <Fragment style={{ width: "100%" }}>
       {loading ? (
         <DotLoader
           color={"#FF0000"}
@@ -41,13 +41,16 @@ function App() {
                 <Route path="discover" element={<Discover />} />
                 <Route path="dashboard" element={<Dashboard />} />
                 <Route path="Blog" element={<Blog />} />
+                {/* <Route path="How" element={<HowItpage />} /> */}
+                <Route path="resources" element={<Resources />} />
+
                 <Route path="*" element={<Error />} />
               </Route>
             </Routes>
           </BrowserRouter>
         </div>
       )}
-    </div>
+    </Fragment>
   );
 }
 
