@@ -1,17 +1,15 @@
 import React, { Fragment, useState, useEffect } from "react";
 import DotLoader from "react-spinners/ClipLoader";
-import Header from "./Components/Header/Header";
-import PeoplePlay from "./Components/PeoplePlay/PeoplePlay";
-import AsInvestor from "./Components/AsInvestor/AsInvestor";
-import InvestorCards from "./Components/InvestorCards/InvestorCards";
-import FormSection from "./Components/FormSection/FormSection";
-import ChooseProp from "./Components/ChooseProp.js/ChooseProp";
-import Blog from "./Components/BlogSection/Blog";
-import FundedCompanies from "./Components/FundedCompanies/FundedCompanies";
-import Contact from "./Components/ContactSupport/Contact";
-import "./App.css";
-import Footer from "./Pagination/Footer/Footer";
-import AsDeveloper from "./Components/AsInvestor/AsDeveloper";
+import classes from "./App.module.css";
+import Home from "./pages/Home/Home";
+import Navbar from "./pages/Navbar/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SharedLayout from "./SharedLayout";
+import Discover from "./pages/Discover";
+import Dashboard from "./pages/Dashboard";
+import Blog from "./pages/Blog";
+import Error from "./pages/Error";
+
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -36,17 +34,17 @@ function App() {
         />
       ) : (
         <div>
-          <Header />
-          <PeoplePlay />
-          <AsInvestor />
-          <InvestorCards />
-          <AsDeveloper />
-          <FormSection />
-          <ChooseProp />
-          <Blog />
-          <FundedCompanies />
-          <Contact />
-          <Footer />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<SharedLayout />}>
+                <Route index element={<Home />} />
+                <Route path="discover" element={<Discover />} />
+                <Route path="dashboard" element={<Dashboard />} />
+                <Route path="Blog" element={<Blog />} />
+                <Route path="*" element={<Error />} />
+              </Route>
+            </Routes>
+          </BrowserRouter>
         </div>
       )}
     </div>
