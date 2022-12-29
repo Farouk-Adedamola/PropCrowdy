@@ -1,7 +1,11 @@
 import React from "react";
 
 const HowItpage = () => {
-  return <div>HowItpage</div>;
+  return (
+    <div>
+      <h1>HowItpage</h1>
+    </div>
+  );
 };
 
 export default HowItpage;

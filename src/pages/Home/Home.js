@@ -19,7 +19,7 @@ const Home = () => {
       <InvestorCards />
       <AsDeveloper />
       <FormSection />
-      <ChooseProp />
+      {/* <ChooseProp /> */}
       <Blog />
       <FundedCompanies />
       <Contact />

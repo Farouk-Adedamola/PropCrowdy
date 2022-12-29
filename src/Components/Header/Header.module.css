@@ -10,7 +10,6 @@
   width: 85vw;
   display: flex;
   justify-content: center;
-  /* max-width: 530px; */
   object-fit: cover;
   margin: 0 auto;
   height: auto !important;
@@ -25,7 +24,6 @@
 
 .text {
   width: 85vw;
-  /* width: 344px; */
   font-family: "Tiemposbold";
   margin: 1.5rem 0;
   font-size: 20px;
@@ -80,17 +78,13 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* width: 70vw; */
     flex-direction: row-reverse;
     justify-content: space-between;
-    /* padding: 60px 78px 0 120px; */
     align-items: center;
   }
 
   .section {
     width: 300px;
-    /* width: ; */
-    /* width: 30%; */
   }
 
   .second_Section {
@@ -99,9 +93,8 @@
 
   .section img {
     margin: 0;
-    width: 300px;
+    width: 280px;
     height: 300px;
-    /* width: 50%; */
   }
   .text {
     width: 300px;
@@ -128,7 +121,7 @@
     width: 450px;
   }
   .section img {
-    width: 430px;
+    width: 400px;
   }
   .second_Section {
     align-self: center;
@@ -151,10 +144,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .mainArea {
-    /* width: ; */
-  }
-
   .second_Section {
     width: 40vw;
   }
@@ -164,7 +153,7 @@
   }
 
   .section img {
-    width: 631px;
+    width: 531px;
   }
 
   .text {

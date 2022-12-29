@@ -158,12 +158,9 @@ button {
 
   .overalll {
     display: flex;
-    /* width: 100vw; */
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    /* padding-left: 100px; */
-    /* padding-right: 78px; */
   }
 
   .secondCard {
@@ -180,7 +177,6 @@ button {
   }
 
   .investment {
-    /* padding-right: 70px; */
   }
   .Independent img {
     object-fit: cover;
@@ -195,9 +191,7 @@ button {
 @media screen and (min-width: 1000px) {
   .overall {
     display: flex;
-    /* width: 80vw; */
     justify-content: space-between;
-    /* margin: 0 auto; */
   }
 
   .section {
@@ -206,20 +200,15 @@ button {
   }
   .overalll {
     display: flex;
-    /* width: 80vw; */
     justify-content: space-between;
-    /* margin: 0 auto; */
   }
 
   .investment {
     margin-left: 0px;
-    /* margin-right: 0; */
     width: 400px;
     display: flex;
     margin: 0;
     padding: 0;
-    /* justify-self: flex-start; */
-    /* margin-right: 80px; */
   }
 
   .Independent {
@@ -232,19 +221,11 @@ button {
     object-fit: contain;
   }
 
-  .overalll {
-    /* margin: 0 auto; */
-  }
-
   .section {
     width: 400px;
     margin-left: 0px;
     margin-right: 0px;
   }
-
-  /* .secondCard {
-    width: 50%;
-  } */
 
   .secondCard h1 {
     text-align: left;
