@@ -176,8 +176,6 @@ button {
     width: 260px;
   }
 
-  .investment {
-  }
   .Independent img {
     object-fit: cover;
     width: 300px;
@@ -200,15 +198,20 @@ button {
   }
   .overalll {
     display: flex;
+    /* width: 80vw; */
     justify-content: space-between;
+    /* margin: 0 auto; */
   }
 
   .investment {
     margin-left: 0px;
+    /* margin-right: 0; */
     width: 400px;
     display: flex;
     margin: 0;
     padding: 0;
+    /* justify-self: flex-start; */
+    /* margin-right: 80px; */
   }
 
   .Independent {

@@ -28,6 +28,7 @@
   background: transparent;
   box-shadow: none;
   padding: 0;
+  border: none;
 }
 
 .btn img {
