@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
         </div>
         <section className={classes.linksContainer} ref={linksContainerRef}>
-          <nav ref={linksRef}>
+          <div className={classes.nav} ref={linksRef}>
             <NavLink
               className={classes.each}
               style={({ isActive }) => {
@@ -110,7 +110,7 @@ const Navbar = () => {
             >
               Dashboard
             </NavLink>
-          </nav>
+          </div>
         </section>
       </section>
     </Fragment>
